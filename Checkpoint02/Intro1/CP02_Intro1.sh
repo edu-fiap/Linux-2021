@@ -15,7 +15,7 @@ function Question2(){
 
 #Question 3
 function Question3(){
-    cal 2005 >> /home/demo/yearfile
+    cal 2005 >> ~/yearfile
 }
 #---------------------------------------------------
 
