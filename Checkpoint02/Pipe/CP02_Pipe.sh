@@ -94,51 +94,68 @@ function Question15(){
 #---------------------------------------------------
 
 
-echo "Resolvendo a Questao 1"
-Question1
+echo "Qual Questao deseja resolver?"
+read Question
 
-echo "Resolvendo a Questao 2"
-Question2
-
-echo "Resolvendo a Questao 3"
-Question3
-
-echo "Resolvendo a Questao 4"
-Question4
-
-echo "Resolvendo a Questao 5"
-Question5
-
-echo "Resolvendo a Questao 6"
-Question6
-
-echo "Resolvendo a Questao 7"
-Question7
-
-echo "Resolvendo a Questao 8"
-Question8
-
-echo "Resolvendo a Questao 9"
-Question9
-
-echo "Resolvendo a Questao 10"
-Question10
-
-echo "Resolvendo a Questao 11"
-Question11
-
-echo "Resolvendo a Questao 12"
-Question12 
-
-echo "Resolvendo a Questao 13"
-Question13
-
-echo "Resolvendo a Questao 14"
-Question14
-
-echo "Resolvendo a Questao 15"
-Question15
-
-
-
-
+if [ $Question -eq 1 ]
+then
+    echo "Questao 1 basta clicar no botao do Linuxzoo"
+elif [ $Question -eq 2 ]
+then
+    echo "Resolucao da Questao 2"
+    Question2
+elif [ $Question -eq 3 ] 
+then
+    echo "Resolucao da Questao 3"
+    Question3
+elif [ $Question -eq 4 ]
+then
+    echo "Resolucao da Questao 4"
+    Question4
+elif [ $Question -eq 5 ]
+then
+    echo "Resolucao da Questao 5"
+    Question5
+elif [ $Question -eq 6 ]
+then
+    echo "Resolucao da Questao 6"
+    Question6
+elif [ $Question -eq 7 ]
+then
+    echo "Resolucao da Questao 7"
+    Question7
+elif [ $Question -eq 8 ]
+then
+    echo "Resoluao da Questao8"
+    Question8
+elif [ $Question -eq 9 ]
+then
+    echo "Resolucao da Questao 9"
+    Question9
+elif [ $Question -eq 10 ]
+then
+    echo "Resolucao da Questao 10"
+    Question10
+elif [ $Question -eq 11 ]
+then
+    echo "Resolucao da Questao 11"
+    Question11
+elif [ $Question -eq 12 ]
+then
+    echo "Resolucao da Questao 12"
+    Question12
+elif [ $Question -eq 13 ]
+then
+    echo "Resolucao da Questao13"
+    Question13
+elif [ $Question -eq 14 ]
+then
+    echo "Resolucao da Questao 14"
+    Question14
+elif [ $Question -eq 15 ]
+then
+    echo "Resolucao da Questao 15"
+    Question15
+else
+    echo "Opcao invalida"
+fi
