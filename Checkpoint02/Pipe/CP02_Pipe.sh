@@ -94,8 +94,50 @@ function Question15(){
 #---------------------------------------------------
 
 
+echo "Resolvendo a Questao 1"
+Question1
 
+echo "Resolvendo a Questao 2"
+Question2
 
+echo "Resolvendo a Questao 3"
+Question3
+
+echo "Resolvendo a Questao 4"
+Question4
+
+echo "Resolvendo a Questao 5"
+Question5
+
+echo "Resolvendo a Questao 6"
+Question6
+
+echo "Resolvendo a Questao 7"
+Question7
+
+echo "Resolvendo a Questao 8"
+Question8
+
+echo "Resolvendo a Questao 9"
+Question9
+
+echo "Resolvendo a Questao 10"
+Question10
+
+echo "Resolvendo a Questao 11"
+Question11
+
+echo "Resolvendo a Questao 12"
+Question12 
+
+echo "Resolvendo a Questao 13"
+Question13
+
+echo "Resolvendo a Questao 14"
+Question14
+
+echo "Resolvendo a Questao 15"
+Question15
 
 
 
