@@ -93,7 +93,8 @@ function Question15(){
 }
 #---------------------------------------------------
 
-
+#Chamada do Menu
+while :; do
 echo "Qual Questao deseja resolver?"
 read Question
 
@@ -159,3 +160,4 @@ then
 else
     echo "Opcao invalida"
 fi
+done
