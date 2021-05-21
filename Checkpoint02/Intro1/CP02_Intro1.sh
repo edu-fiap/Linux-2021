@@ -83,7 +83,8 @@ read Question
 
 if [ $Question -eq 1 ]
 then
-    echo "Questao 1 basta clicar no botao do Linuxzoo"
+    wget "https://linuxzoo.net/xmltut/tut.cgi?xml=centos7%2Fintro1.xml&check=1&btn=Create%20account&user=root&password=secure&"
+    #echo "Questao 1 basta clicar no botao do Linuxzoo"
 elif [ $Question -eq 2 ]
 then
     echo "Resolucao da Questao 2"
