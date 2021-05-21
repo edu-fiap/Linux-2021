@@ -17,7 +17,7 @@ function Question2(){
 #---------------------------------------------------
 
 #Question 3
-function Question3(){	
+function Question3(){
     cal 2005
     cal 2005 >> /home/demo/yearfile
     echo "Arquivo yearfile Criado com Sucesso"
@@ -76,63 +76,51 @@ function Question10(){
 }
 #---------------------------------------------------
 
+#Chamada do Menu
+while :; do
 echo "Qual Questao deseja resolver?"
-read question
+read Question
 
 if [ $Question -eq 1 ]
 then
     echo "Questao 1 basta clicar no botao do Linuxzoo"
-
-elif [$Question -eq 2]
+elif [ $Question -eq 2 ]
 then
-	echo "Resolucao da Questao 2"
-	Question2
-
-elif [$Question -eq 3]
+    echo "Resolucao da Questao 2"
+    Question2
+elif [ $Question -eq 3 ] 
 then
-	echo "Resolucao da Questao 3"
-	Question3
-
-elif [$Question -eq 4]
+    echo "Resolucao da Questao 3"
+    Question3
+elif [ $Question -eq 4 ]
 then
-	echo "Resolucao da Questao 4"
-	Question4
-
-elif [$Question -eq 5]
+    echo "Resolucao da Questao 4"
+    Question4
+elif [ $Question -eq 5 ]
 then
-	echo "Resolucao da Questao 5"
-	Question5
-
-elif [$Question -eq 6]
+    echo "Resolucao da Questao 5"
+    Question5
+elif [ $Question -eq 6 ]
 then
-	echo "Resolucao da Questao 6"
-	Question6
-
-elif [$Question -eq 7]
+    echo "Resolucao da Questao 6"
+    Question6
+elif [ $Question -eq 7 ]
 then
-	echo "Resolucao da Questao 7"
-	Question7
-
-elif [$Question -eq 8]
+    echo "Resolucao da Questao 7"
+    Question7
+elif [ $Question -eq 8 ]
 then
-	echo "Resoluao da Questao8"
-	Question8
-
-elif [$Question -eq 9]
+    echo "Resoluao da Questao8"
+    Question8
+elif [ $Question -eq 9 ]
 then
-	echo "Resolucao da Questao 9"
-	Question9
-
-elif [Question -eq 10]
+    echo "Resolucao da Questao 9"
+    Question9
+elif [ $Question -eq 10 ]
 then
-	echo "Resolucao da Questao 10"
-	Question10
-
+    echo "Resolucao da Questao 10"
+    Question10
 else
-then
-	echo "Opcao invalida"
-
-
-
-
-
+    echo "Opcao invalida"
+fi
+done
