@@ -59,7 +59,32 @@ function Question9(){
 #---------------------------------------------------
 
 
+echo "Resolvendo a Questao 1"
+Question1
 
+echo "Resolvendo a Questao 2"
+Question2
+
+echo "Resolvendo a Questao 3"
+Question3
+
+echo "Resolvendo a Questao 4"
+Question4
+
+echo "Resolvendo a Questao 5"
+Question5
+
+echo "Resolvendo a Questao 6"
+Question6
+
+echo "Resolvendo a Questao7"
+Question7
+
+echo "Resolvendo a Questao8"
+Question8
+
+echo "Resolvendo a Questao9"
+Question9
 
 
 
